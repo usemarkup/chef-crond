@@ -4,7 +4,8 @@ node[:crond].each do |name, config|
       'day' => '*',
       'hour' => "*",
       'minute' => "*",
-      'user' => "root"
+      'user' => "root",
+      'shell' => "/bin/bash"
     },
     config
   )
@@ -19,5 +20,6 @@ node[:crond].each do |name, config|
     hour configset['hour']
     minute configset['minute']
     user configset['user']
+    shell configset['shell']
   end
 end
