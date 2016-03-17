@@ -1,0 +1,9 @@
+DEPENDENCIES
+  crond
+    path: .
+    metadata: true
+
+GRAPH
+  cron (1.7.5)
+  crond (0.0.1)
+    cron (>= 0.0.0)
