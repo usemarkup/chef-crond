@@ -18,7 +18,7 @@ platforms:
       image: centos:7
       platform: rhel
       provision_command:
-        - /bin/yum install -y initscripts net-tools wget cron
+        - /bin/yum install -y initscripts net-tools wget cronie
 
 suites:
   - name: default
