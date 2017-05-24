@@ -4,6 +4,8 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  cron (1.7.5)
-  crond (0.0.3)
-    cron (>= 0.0.0)
+  compat_resource (12.19.0)
+  cron (4.1.1)
+    compat_resource (>= 0.0.0)
+  crond (0.0.4)
+    cron (~ 4)
